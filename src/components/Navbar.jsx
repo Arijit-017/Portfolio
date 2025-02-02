@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaTwitterSquare, FaInstagram } from 'react-icons/
 
 const Navbar = () => {
   return (
-    <nav className="mb-8 flex items-center justify-between py-6">
+    <nav className="lg:mb-8 flex items-center justify-between py-3 lg:py-6">
       <div className="flex flex-shrink-0 items-center">
         <img src={logo} alt="logo" className="mx-2 w-16" />
       </div>

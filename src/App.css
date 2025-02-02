@@ -7,4 +7,7 @@
     -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 100%);
     mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 100%);
   }
+  sheetdb-form::after {
+    display: none !important;
+  }
   
