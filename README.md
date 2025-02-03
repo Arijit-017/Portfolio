@@ -1,31 +1,43 @@
-# React & Tailwind CSS Starter Pack
+# Portfolio Website
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+Welcome to my personal portfolio! This website showcases my technical skills, projects, and professional journey. Built using **React, and Tailwind CSS**, it provides an interactive and smooth user experience.
 
-## Usage
+## 🔗 Live Website
+[https://portfolio-delta-five-96.vercel.app/](#) 
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## 🚀 Technologies Used
+- **Frontend:** React, Tailwind CSS
+- **Animation:** Framer Motion
+- **Hosting:** Vercel
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## 📌 Features
+- **About Me** – Hi, I'm Arijit Ghosh, a pre-final year student at Haldia Institute of Technology. As a technical member of ISTE-HIT SC, I am passionate about web development, problem-solving, and organizing technical events like coding contests and hackathons.
+- **Projects** – I have worked on various projects, including a **certificate verification system** using Google Sheets and Next.js, an **auto-stand queue management system** using Firebase, and a **barcode-based booking system**. You can check out my repositories on GitHub.
+- **Experience** – I have gained experience by actively contributing to ISTE-HIT SC, organizing and managing technical events, and working on real-world projects involving **React, Next.js, Firebase, and API integrations**.
+- **Technologies** – I am proficient in **React, Next.js, Tailwind CSS, Firebase, JavaScript, and Python**, with experience in backend integration, API handling, and frontend animations using Framer Motion.
+- **Contact** – Feel free to reach out to me for collaborations or discussions on web development, AI, and technical innovations.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## 🛠 Installation & Setup
+If you'd like to run the project locally:
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Arijit-017/portfolio.git
+   ```
+2. Navigate into the directory:
+   ```sh
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+---
+### ⭐ If you like my portfolio, consider giving it a star on GitHub!
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
