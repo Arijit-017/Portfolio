@@ -27,17 +27,17 @@ const Projects = () => {
             className="w-full max-w-xl lg:w-3/4">
               <div className="flex justify-between items-center">
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
-                <a className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-sky-400 hover:text-sky-700" href={project.link}>LINK</a>
             </div>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-[#615ae5]"
                 >
                   {tech}
                 </span>
               ))}
+              <a className="mr-2 rounded bg-neutral-900 ml-2 px-2 py-1 text-sm font-medium text-sky-500 hover:text-sky-700" href={project.link}>LINK</a>
             </motion.div>
           </div>
         ))}
