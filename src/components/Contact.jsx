@@ -71,7 +71,7 @@ const Contact = () => {
       >
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href={`mailto:${CONTACT.email}`} className="border-b text-cyan-500 hover:text-cyan-700">
+        <a href={`mailto:${CONTACT.email}`} className="border-b">
           {CONTACT.email}
         </a>
       </motion.div>
