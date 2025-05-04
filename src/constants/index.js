@@ -16,6 +16,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "CTF website",
+    link : "https://github.com/Arijit-017/CTF",
+    image: project1,
+    description:
+      "Developed a responsive CTF competition website for ISTE-HIT's ExploitX event with user authentication and a real-time leaderboard using React and Firebase.",
+    technologies: ["React", "TailwindCSS", "Firebase"],
+  },
+  {
     title: "ISTE Hactoberfest",
     link : "https://github.com/Arijit-017/ISTE-Contribution-React",
     image: project1,
